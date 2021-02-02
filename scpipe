@@ -1,0 +1,23 @@
+pipeline {
+agent any
+stages {
+stage ('build') {
+...
+}
+stage ('test: integration-&amp;-quality') {
+...
+}
+stage ('test: functional') {
+...
+}
+stage ('test: load-&amp;-security') {
+...
+}
+stage ('approval') {
+...
+}
+stage ('deploy:prod') {
+...
+}
+}
+
